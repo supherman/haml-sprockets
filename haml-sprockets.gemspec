@@ -3,10 +3,10 @@ $:.push File.expand_path("../lib", __FILE__)
 require "haml-sprockets/version"
 
 Gem::Specification.new do |s|
-  s.name        = "haml-sprockets"
+  s.name        = "herman-haml-sprockets"
   s.version     = Haml::Sprockets::VERSION
-  s.authors     = ["vagmi"]
-  s.email       = ["vagmi.mudumbai@gmail.com"]
+  s.authors     = ["vagmi", 'Herman Moreno']
+  s.email       = ["vagmi.mudumbai@gmail.com", 'herman.moreno@crowdint.com']
   s.homepage    = "https://github.com/dharanasoft/haml-sprockets"
   s.summary     = %q{Use the awesome haml-js javascript templating lib in Ruby}
   s.description = %q{Use the JST processor and have haml code read in and appended to application.js}
